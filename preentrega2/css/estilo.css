@@ -61,4 +61,10 @@ div {
     border-bottom: 5px;
     display: flex;
     padding-left: 2px;
+    margin: 20px;
+}
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
 }
