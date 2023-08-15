@@ -4,7 +4,7 @@ h1 {
     position: sticky;
     text-align: right;
     display: none;
-    font-family: ;
+    font-family: f;
 
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 .link {
-    display: flex 
+    display: flex;
     text-align: center;
     font-size: 200%;
     color: black;
@@ -37,7 +37,7 @@ h1 {
 body {
     background-image: url(https://i.pinimg.com/originals/32/a2/e5/32a2e51f9b17e2e211b091349cd28f1f.jpg);
     background-size: cover;
-    font-family:
+    
 }
 
 header {
@@ -68,3 +68,40 @@ a {
     text-decoration: none;
     color: rgb(83, 83, 83);
 }
+
+.productos {
+    background-color: rgba(245, 245, 245, 0.61);
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    div {
+        flex-direction: column;
+    }
+  }
+
+  @media (min-width: 300px) {
+    div {
+        flex-direction: column;
+    }
+  }
+
+  @media (min-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+  }
+
+  @media (min-width: 300px) {
+    header {
+        flex-direction: column;
+    }
+  }
