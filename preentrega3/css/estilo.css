@@ -76,6 +76,7 @@ a {
     margin: 5%;
     text-decoration: none;
     text-align: left;
+
 }
 
 h5 {
@@ -84,9 +85,23 @@ h5 {
 
 .organizacionproductos {
     flex-direction: row;
+    grid-template-columns: 30%;
+    column-gap: 5px;
 }
 .column {
     width: 100%;
+  }
+
+
+.contact_form{  
+    width: 50%; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #c7c5c59a; 
+    padding-left: 30px; 
   }
   
   @media (min-width: 600px) {
@@ -95,20 +110,16 @@ h5 {
     }
   }
 
-  @media (min-width: 300px) {
-    div {
-        flex-direction: column;
-    }
+  @media (max-width: 300px) {
+
   }
 
-  @media (min-width: 600px) {
-    header {
-        flex-direction: column;
-    }
+  @media (max-width: 600px) {
   }
 
-  @media (min-width: 300px) {
-    header {
-        flex-direction: column;
+  @media screen and (min-width: 992px) {
+    .productos {
+        grid-template-columns: 20% auto 15%;
+        height: 100%;
     }
   }
