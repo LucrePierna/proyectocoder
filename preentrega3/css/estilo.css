@@ -71,13 +71,20 @@ a {
 
 .productos {
     background-color: rgba(245, 245, 245, 0.61);
-    width: 30%;
+    width: 45%;
     height: 100%;
     margin: 5%;
     text-decoration: none;
+    text-align: left;
+}
+
+h5 {
     text-align: center;
 }
 
+.organizacionproductos {
+    flex-direction: row;
+}
 .column {
     width: 100%;
   }
